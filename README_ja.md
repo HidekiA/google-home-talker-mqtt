@@ -8,9 +8,12 @@
 * Full SSL/TLS Internet connections
 
 
+<a id="overview"></a>
+## Overview
+![](./img/overview.png)
+
 ---
 ## Index
-* [Overview](#overview)
 * [Install](#install)
     * [起動時に実行](#install_systemd)
     * [設定](#configurations)
@@ -20,11 +23,6 @@
     * [Google Cloud Storage](#gcs)
     * [Beebotte](#beebotte)
     * [IFTTT](#ifttt)
-
----
-<a id="overview"></a>
-## Overview
-![](./img/overview.png)
 
 
 ---
