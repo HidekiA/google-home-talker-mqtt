@@ -9,9 +9,13 @@
 * Full SSL/TLS Internet connections
 
 
+<a id="overview"></a>
+## Overview
+![](./img/overview.png)
+
+
 ---
 ## Index
-* [Overview](#overview)
 * [Install](#install)
     * [Run Automatically](#install_systemd)
     * [Configurations](#configurations)
@@ -21,11 +25,6 @@
     * [Google Cloud Storage](#gcs)
     * [Beebotte](#beebotte)
     * [IFTTT](#ifttt)
-
----
-<a id="overview"></a>
-## Overview
-![](./img/overview.png)
 
 
 ---
