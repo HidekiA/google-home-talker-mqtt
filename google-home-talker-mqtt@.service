@@ -1,0 +1,21 @@
+[Unit]
+Description=Google Home Talker MQTT for %I
+Requires=network-online.target
+After=network-online.target
+StartLimitIntervalSec=60
+StartLimitBurst=4
+
+[Service]
+Type=simple
+User=%i
+ExecStart=/usr/bin/python3 /home/USERNAME/google-home-talker-mqtt/main.py
+Restart=always
+RestartSec=1
+
+ProtectSystem=full
+ProtectHome=read-only
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

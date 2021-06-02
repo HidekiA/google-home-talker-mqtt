@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Added
+/secret/
+/gcp-service-account.json
+/mqtt.beebotte.com.pem
