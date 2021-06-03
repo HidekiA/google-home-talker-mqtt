@@ -1,0 +1,5 @@
+google-cloud-storage
+google-cloud-texttospeech
+paho-mqtt
+parse
+PyChromecast
